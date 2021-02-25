@@ -1,0 +1,40 @@
+.home_screen {
+}
+
+.main_screen {
+  background: #333;
+  height: 92.56vh;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.video_link {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 231, 233);
+  overflow: auto;
+  padding: 5px 15px 15px 15px;
+  width: 25%;
+}
+
+.video_link::-webkit-scrollbar {
+  width: 5px;
+}
+
+.video_link::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
+.video_link::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+.player {
+  display: flex;
+  background-color: #ffffffed;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}

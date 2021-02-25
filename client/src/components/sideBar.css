@@ -1,0 +1,73 @@
+.sidebar_content {
+  text-align: center;
+  background-color: #fafafa;
+
+  display: flex;
+
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.side_main {
+  position: relative;
+}
+
+.sidebar_content:hover {
+  background: #faf6f6bd;
+}
+
+.sidebar_content:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px 15px 301px;
+  background-color: rgb(227, 231, 233);
+  margin-bottom: 5px;
+  position: fixed;
+  z-index: 43;
+  top: 56px;
+}
+.side_link {
+  margin: 0;
+  padding: 21px;
+}
+.add > span {
+  padding: 3px 5px 0px 5px;
+  color: rgba(53, 44, 44, 0.76);
+  font-size: 30px;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.add > span:hover {
+  color: #111;
+}
+.sidebar_scroll {
+  padding: 2px;
+  margin-top: 62px;
+}
+
+.sidebar_content > div > h4 {
+  padding: 0px 0px 0px 8px;
+}
+.trash {
+  padding: 0px 8px 0px 0px;
+  z-index: 40;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.trash > i {
+  font-size: 20px;
+  color: rgba(235, 30, 30, 0.568);
+}
+
+.trash > i:hover {
+  color: red;
+}
